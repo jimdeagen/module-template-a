@@ -1,0 +1,15 @@
+.large-hero {
+  position: relative;
+}
+
+.large-hero__text-content {
+  width: 100vw;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
