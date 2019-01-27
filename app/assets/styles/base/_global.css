@@ -6,6 +6,16 @@ body {
   font-family: "Roboto", sans-serif;
   color: #333;
   font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: auto;
+  max-width: 1800px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 img {

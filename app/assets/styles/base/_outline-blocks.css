@@ -1,0 +1,12 @@
+body {
+  background-color: steelblue;
+}
+
+.large-hero__text-content {
+  border: 1px solid red;
+}
+
+.container {
+  background-color: pink;
+  border: 1px solid orchid;
+}
