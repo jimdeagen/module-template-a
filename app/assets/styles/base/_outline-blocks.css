@@ -2,6 +2,16 @@ body {
   background-color: steelblue;
 }
 
+header {
+  border: 2px solid darkmagenta;
+}
+
+border: 4px solid rgba(0, 255, 0, 0.6);
+
+.large-hero {
+  border: 2px solid lightseagreen;
+}
+
 .large-hero__text-content {
   border: 1px solid red;
 }
@@ -9,4 +19,21 @@ body {
 .container {
   background-color: pink;
   border: 1px solid orchid;
+}
+
+.wrapper {
+  border: 1px solid salmon;
+  border-radius: 15px;
+}
+
+.image-and-text {
+  border: 1px solid purple;
+}
+
+.card {
+  border: 1px solid mediumspringgreen;
+}
+
+.cards {
+  border: 1px solid blue;
 }

@@ -1,0 +1,17 @@
+.wrapper {
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper--darken {
+  padding: 3rem 5rem;
+  background-color: rgba(10, 7, 0, 0.2);
+}
+
+.wrapper--lighten {
+  padding: 3rem 5rem;
+  background-color: rgba(250, 240, 225, 0.2);
+}

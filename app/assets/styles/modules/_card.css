@@ -1,0 +1,16 @@
+.card {
+  background-color: $liteGray;
+  margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 40px;
+  margin-bottom: 3rem;
+
+  @mixin 1200plus {
+    width: 48%;
+  }
+
+  &__image {
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+  }
+}

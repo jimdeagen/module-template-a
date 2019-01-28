@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: $deepGray;
+  color: $liteGray;
+  height: 200px;
+
+  @mixin 1200plus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
