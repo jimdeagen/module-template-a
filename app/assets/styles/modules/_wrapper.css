@@ -4,14 +4,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
 
-.wrapper--darken {
-  padding: 3rem 5rem;
-  background-color: rgba(10, 7, 0, 0.2);
-}
+  @mixin 1200plus {
+    &--top-bottom {
+      border-top: 1px solid $liteMediumGray;
+      border-bottom: 1px solid $liteMediumGray;
+      padding-bottom: 6rem;
+      margin-left: 3rem;
+    }
+  }
 
-.wrapper--lighten {
-  padding: 3rem 5rem;
-  background-color: rgba(250, 240, 225, 0.2);
+  &--darken {
+    padding: 3rem 5rem;
+    background-color: rgba(10, 7, 0, 0.2);
+  }
+
+  &--lighten {
+    padding: 3rem 5rem;
+    background-color: rgba(250, 240, 225, 0.2);
+  }
 }
