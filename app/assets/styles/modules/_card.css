@@ -22,4 +22,12 @@
     width: 85%;
     text-align: right;
   }
+
+  &__p {
+    padding: 1.5rem 0 2rem 2rem;
+
+    @mixin 1200plus {
+      padding: 0 3rem 2rem 5rem;
+    }
+  }
 }

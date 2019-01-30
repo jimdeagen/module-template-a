@@ -22,14 +22,14 @@
   }
 }
 
-@define-mixin 1060plus {
-  @media (min-width: 1060px) {
+@define-mixin 1200plus {
+  @media (min-width: 1200px) {
     @mixin-content;
   }
 }
 
-@define-mixin 1200plus {
-  @media (min-width: 1200px) {
+@define-mixin 1500plus {
+  @media (min-width: 1500px) {
     @mixin-content;
   }
 }

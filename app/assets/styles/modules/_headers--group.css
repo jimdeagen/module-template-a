@@ -1,0 +1,25 @@
+.headers--group {
+  padding-bottom: 3rem;
+
+  h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 80%;
+    -webkit-margin-after: 2rem;
+    margin-block-end: 2rem;
+
+    @mixin 1200plus {
+      font-size: 3.5rem;
+    }
+  }
+
+  h3 {
+    font-size: 2rem;
+    text-align: center;
+    width: 80%;
+
+    @mixin 1200plus {
+      font-size: 2.8rem;
+    }
+  }
+}

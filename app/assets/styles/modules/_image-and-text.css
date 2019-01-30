@@ -8,6 +8,6 @@
   }
 
   @mixin 1200plus {
-    padding: 12rem 1rem 12rem 12rem;
+    padding: 4rem 1rem 4rem 12rem;
   }
 }

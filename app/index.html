@@ -68,14 +68,16 @@
         </picture>
 
         <div class="large-hero__text-content">
-          <div class="wrapper wrapper--lighten">
+          <div class="wrapper wrapper--lighten wrapper--rounded">
             <h1 class="large-hero__title">Your clarity.</h1>
             <h2 class="large-hero__subtitle">One trip away.</h2>
             <p class="large-hero__description">
               We create soul restoring journeys that inspire you to be you.
             </p>
             <p>
-              <a href="#" class="btn btn--opacity btn--orange btn--large"
+              <a
+                href="#"
+                class="btn btn--opacity btn--orange btn--large btn--animate"
                 >CTA goes here</a
               >
             </p>
@@ -83,55 +85,112 @@
         </div>
       </div>
 
-      <div id="our-beginning" class="page-section">
+      <div id="our-beginning" class="our-beginning page-section">
         <div>
-          <div class="wrapper">
-            <h2>The first trip we planned was our own.</h2>
-            <h3>
-              Ever since, we&rsquo;ve been working to make travel better for
-              everyone.
-            </h3>
+          <div class="headers--group">
+            <div class="wrapper">
+              <h2>The first trip we planned was our own.</h2>
+              <h3 class="our-beginning__h3">
+                Ever since, we&rsquo;ve been working to make travel better for
+                everyone.
+              </h3>
+            </div>
           </div>
 
-          <img
-            src="assets/images/first-trip.jpg"
-            alt="Couple walking down a street."
-          />
+          <picture>
+            <source
+              srcset="assets/images/first-trip-hi-dpi-i.jpg 1952w"
+              media="(min-width: 1800px)"
+            />
+
+            <source
+              srcset="assets/images/first-trip-i.jpg 976w"
+              media="(min-width: 800px)"
+            />
+            <img
+              src="assets/images/first-trip-low-res-i.jpg"
+              alt="Couple walking down a street."
+              class="our-beginning__images--2up our-beginning__images--2up--none"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="assets/images/first-trip-hi-dpi-i.jpg 1952w"
+              media="(min-width: 1800px)"
+            />
+
+            <source
+              srcset="assets/images/first-trip-i.jpg 976w"
+              media="(min-width: 800px)"
+            />
+            <img
+              src="assets/images/first-trip-low-res-i.jpg"
+              alt="Couple walking down a street."
+              class="our-beginning__images--2up our-beginning"
+            />
+          </picture>
+
           <div class="wrapper">
-            <h2>Here&rsquo;s how we got started&hellip;Text only module</h2>
-            <div class="text--group">
-              <p class="text--group__p">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam,
-                <a href="#">quis nostrud exercitation</a> ullamco laboris nisi
-                ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-              <p class="text--group__p">
-                Duis aute irure dolor in
-                <strong>reprehenderit in</strong> voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua.
-              </p>
-              <p class="text--group__p">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum velit esse cillum
-                <strong>dolore eu fugiat.</strong>
-              </p>
+            <div class="wrapper">
+              <h2>Here&rsquo;s how we got started&hellip;Text only module</h2>
+              <div class="text--group">
+                <p class="text--group__p">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam,
+                  <a href="#">quis nostrud exercitation</a> ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                  reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id
+                  est laborum.
+                </p>
+                <p class="text--group__p">
+                  Duis aute irure dolor in
+                  <strong>reprehenderit in</strong> voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum. Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua.
+                </p>
+                <p class="text--group__p">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum velit esse cillum
+                  <strong>dolore eu fugiat.</strong>
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="wrapper image-and-text">
-          <img src="assets/images/our-start.jpg" alt="Our founder, Jane Doe" />
+          <picture>
+            <source
+              srcset="
+                assets/images/our-start-portrait-i.jpg        382w,
+                assets/images/our-start-portrait-hi-dpi-i.jpg 764w
+              "
+              media="(min-width: 1800px)"
+            />
+
+            <source
+              srcset="
+                assets/images/our-start-portrait-i.jpg            330w,
+                assets/images/our-start-portrait-660-hi-dpi-i.jpg 660w
+              "
+              media="(min-width: 800px)"
+            />
+
+            <img
+              src="assets/images/our-start-i.jpg"
+              alt="Our founder, Jane Doe"
+              class="image-and-text__image-1up"
+            />
+          </picture>
+
           <div class="wrapper wrapper--top-bottom">
             <h2>
               Here&rsquo;s how we got started&hellip;Image and text module
@@ -169,7 +228,11 @@
       </div>
 
       <div id="features" class="page-section wrapper">
-        <img src="assets/images/icons/star.svg" class="icon icon--header" />
+        <img
+          src="assets/images/icons/goal_filled.png"
+          alt="target icon"
+          class="icon icon--header"
+        />
         <h2>Our Features</h2>
 
         <div class="cards">
@@ -177,7 +240,7 @@
             <img src="assets/images/icons/rain.svg" class="icon" />
             <div class="wrapper">
               <h3 class="card__h3">We&rsquo;ll Watch the Weather</h3>
-              <p>
+              <p class="card__p">
                 Download our app and we&rsquo;ll send you a notice if it&rsquo;s
                 about to rain in the next 20 minutes around your current
                 location. A good rain can be refreshing, but sometimes you just
@@ -190,7 +253,7 @@
             <img src="assets/images/icons/globe.svg" class="icon" />
             <div class="wrapper">
               <h3 class="card__h3">Global Guides</h3>
-              <p>
+              <p class="card__p">
                 We&rsquo;ve scoured the entire planet for the best retreats and
                 beautiful vistas. If there&rsquo;s a corner of the world you
                 want to escape to we know the most scenic and inspiring
@@ -203,7 +266,7 @@
             <img src="assets/images/icons/wifi.svg" class="icon" />
             <div class="wrapper">
               <h3 class="card__h3">Wi-Fi Waypoints</h3>
-              <p>
+              <p class="card__p">
                 We only send you on trips to places we can personally vouch for
                 as being amazing. Which means we&rsquo;ve mapped out where local
                 wi-fi spots are and marked them in our app&rsquo;s map view.
@@ -215,7 +278,7 @@
             <img src="assets/images/icons/fire.svg" class="icon" />
             <div class="wrapper">
               <h3 class="card__h3">Survival Kit</h3>
-              <p>
+              <p class="card__p">
                 Everytime you book an escape with us we send you a survival kit
                 with the finest materials. The kit will allow you to setup a
                 tent, start a fire, scratch your own back and lower your taxes.
@@ -234,7 +297,7 @@
             <div class="wrapper">
               <h3>Jane Doe</h3>
               <h3>9 Time Escaper</h3>
-              <p>
+              <p class="card__p">
                 &ldquo;Duis aute irure dolor in reprehenderit in voluptate velit
                 esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
                 occaecat cupidatat non proident, sunt in culpa qui officia
@@ -250,7 +313,7 @@
             <div class="wrapper">
               <h3>John Smith</h3>
               <h3>4 Time Escaper</h3>
-              <p>
+              <p class="card__p">
                 &ldquo;Duis aute irure dolor in reprehenderit in voluptate velit
                 esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
                 occaecat cupidatat non proident, sunt in culpa qui officia
@@ -265,7 +328,7 @@
             <div class="wrapper">
               <h3>Cat McKitty</h3>
               <h3>6 Time Escaper</h3>
-              <p>
+              <p class="card__p">
                 &ldquo;Duis aute irure dolor in reprehenderit in voluptate velit
                 esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
                 occaecat cupidatat non proident, sunt in culpa qui officia

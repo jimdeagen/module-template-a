@@ -58,4 +58,8 @@
       font-weight: 100;
     }
   }
+
+  &__p {
+    display: inline-block;
+  }
 }

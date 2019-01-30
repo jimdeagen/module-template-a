@@ -1,0 +1,22 @@
+.our-beginning {
+  &__images--2up {
+    display: inline-block;
+  }
+
+  &__images--2up--none {
+    display: none;
+  }
+
+  @mixin 1200plus {
+    &__images--2up,
+    &__images--2up--none {
+      display: inline-block;
+      max-width: calc(50% - 2px);
+    }
+  }
+
+  &__h3 {
+    font-weight: 300;
+    color: $baseGray;
+  }
+}
