@@ -12,13 +12,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1800px;
 }
 
 .container {
+  display: block;
   height: auto;
-  max-width: 1800px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 img {
@@ -27,6 +28,11 @@ img {
   object-fit: contain;
 }
 
+ul {
+  list-style: none;
+}
+
 a {
+  color: $mainOrange;
   text-decoration: none;
 }

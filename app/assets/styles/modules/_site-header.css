@@ -1,0 +1,28 @@
+.site-header {
+  position: absolute;
+  width: 100%;
+  max-width: 100vw;
+  z-index: 2;
+  background-color: rgba($mainBlue, 0.3);
+
+  @mixin 1800plus {
+    max-width: 1800px;
+  }
+
+  &--content-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  &--group-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 80%;
+  }
+}

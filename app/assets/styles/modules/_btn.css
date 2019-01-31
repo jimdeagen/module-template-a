@@ -1,5 +1,6 @@
 .btn {
   color: white;
+  text-align: center;
   background-color: $mainBlue;
   padding: 1.2rem 2.2rem;
 

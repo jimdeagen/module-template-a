@@ -21,19 +21,29 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <img
-          src="assets/images/icons/clear-view-escapes.svg"
-          alt="Insert alt description"
-        />
-        <a href="#" class="btn">Get in Touch soon</a>
-        <nav>
-          <ul>
-            <li><a href="#our-beginning">Our Beginning</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-          </ul>
-        </nav>
+      <header class="site-header">
+        <div class="site-header--content-wrapper">
+          <img
+            src="assets/images/icons/clear-view-escapes.svg"
+            alt="Insert alt description"
+          />
+          <div class="site-header--group-right">
+            <nav class="menu">
+              <ul class="menu__ul">
+                <li class="menu-item">
+                  <a href="#our-beginning" class="menu-link">Our Beginning</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#features" class="menu-link">Features</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#testimonials" class="menu-link">Testimonials</a>
+                </li>
+              </ul>
+            </nav>
+            <a href="#" class="btn">Get in Touch soon</a>
+          </div>
+        </div>
       </header>
 
       <div class="large-hero">
@@ -48,20 +58,23 @@
 
           <source
             srcset="
-              assets/images/hero--medium.jpg        1380w,
+              assets/images/hero--medium-i.jpg      1380w,
               assets/images/hero--medium-hi-dpi.jpg 2760w
             "
             media="(min-width: 800px)"
           />
           <source
             srcset="
-              assets/images/hero--small.jpg         990w,
+              assets/images/hero--small-i.jpg       990w,
               assets/images/hero--small-hi-dpi.jpg 1980w
             "
             media="(min-width: 530px)"
           />
           <img
-            src="assets/images/hero--smaller-hi-dpi.jpg"
+            srcset="
+              assets/images/hero--smaller-i.jpg       640w,
+              assets/images/hero--smaller-hi-dpi.jpg 1280w
+            "
             alt="Coastal view of ocean and mountains"
             class="large-hero__image"
           />
@@ -89,10 +102,13 @@
         <div>
           <div class="headers--group">
             <div class="wrapper">
-              <h2>The first trip we planned was our own.</h2>
+              <h2 class="our-beginning__h2">
+                The <strong>first trip</strong> we planned was
+                <strong>our own</strong>.
+              </h2>
               <h3 class="our-beginning__h3">
-                Ever since, we&rsquo;ve been working to make travel better for
-                everyone.
+                <strong>Ever since</strong>, we&rsquo;ve been working to
+                <strong>make travel better</strong> for everyone.
               </h3>
             </div>
           </div>
@@ -341,8 +357,10 @@
         </div>
       </div>
 
-      <footer>
-        <p>Copyright &copy; 2016 Clear View Escapes. All rights reserved.</p>
+      <footer class="footer">
+        <p class="footer__p">
+          Copyright &copy; 2016 Clear View Escapes. All rights reserved.
+        </p>
         <a href="#" class="btn btn--opacity btn--orange btn--large"
           >Get in Touch</a
         >

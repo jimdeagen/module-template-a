@@ -1,0 +1,35 @@
+.menu {
+  display: none;
+  width: 100%;
+
+  &-link {
+    color: white;
+  }
+
+  @mixin 1500plus {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+
+    &-item {
+      padding: 1rem 2rem 1rem 2rem;
+      margin-right: 2rem;
+      background-color: rgba(255, 255, 255, 0.4);
+      color: white;
+    }
+
+    &-item:hover {
+      background-color: $mainOrange;
+    }
+
+    &-link {
+      font-weight: 100;
+      color: white;
+    }
+
+    &__ul {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

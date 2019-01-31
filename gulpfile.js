@@ -7,13 +7,14 @@ var cssImport = require("postcss-import");
 var mixins = require("postcss-mixins");
 var watch = require("gulp-watch");
 var browserSync = require("browser-sync").create();
+var hexrgba = require("postcss-hexrgba");
 
 gulp.task("styles", styles);
 function styles() {
   console.log("styles() task ran");
   return gulp
     .src("./app/assets/styles/styles.css")
-    .pipe(postcss([cssImport, mixins, cssvars, nested, autoprefixer]))
+    .pipe(postcss([cssImport, mixins, cssvars, nested, hexrgba, autoprefixer]))
     .on("error", function(errorInfo) {
       console.log(errorInfo.toString());
       this.emit("end");
