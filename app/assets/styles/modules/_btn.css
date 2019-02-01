@@ -18,7 +18,8 @@
   }
 
   &--animate:hover {
-    color: purple;
+    outline: 3px solid rgba($mainOrange, 0.5);
+    outline-offset: 4px;
     box-shadow: 0 30px 16px -26px rgba(0, 0, 0, 0.15);
   }
 }

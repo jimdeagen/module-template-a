@@ -27,12 +27,10 @@
   & h2 {
     color: $mainBlue;
     display: inline-block;
-    margin-block-start: 1rem;
-    margin-block-end: 2rem;
 
     @mixin 1800plus {
       margin-block-start: 1rem;
-      margin-block-end: 6rem;
+      margin-block-end: 2rem;
     }
   }
 }

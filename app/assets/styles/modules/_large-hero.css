@@ -15,6 +15,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @mixin 1200plus {
+      top: 58%;
+    }
   }
 
   &__title {

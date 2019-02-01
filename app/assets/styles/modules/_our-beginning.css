@@ -22,5 +22,9 @@
   &__h3 {
     font-weight: 300;
     color: $mainOrange;
+
+    @mixin 1200plus {
+      font-weight: 100;
+    }
   }
 }

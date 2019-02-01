@@ -1,21 +1,35 @@
 .menu {
-  display: none;
+  position: relative;
+  display: inline-block;
   width: 100%;
+  top: 3rem;
+  background-color: rgba(106, 90, 205, 0.5);
 
   &-link {
     color: white;
   }
 
+  &-item {
+    padding: 3rem 8rem 3rem 8rem;
+    margin: 2rem 2rem;
+    background-color: rgb(106, 90, 205);
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+  }
+
   @mixin 1500plus {
+    max-width: 100%;
+    top: 0;
     display: flex;
-    justify-content: flex-end;
-    margin-right: 3rem;
+    justify-content: center;
+    margin: 0 2rem;
+    background-color: transparent;
 
     &-item {
       padding: 1rem 2rem 1rem 2rem;
-      margin-right: 2rem;
+      margin: 0rem 2rem;
       background-color: rgba(255, 255, 255, 0.4);
-      color: white;
     }
 
     &-item:hover {
